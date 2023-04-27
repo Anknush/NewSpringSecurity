@@ -88,7 +88,7 @@ public class UserModel {
 	}
 
 	public void setRoles(String roles) {
-		this.roles = roles;
+		this.roles = "ROLE_" + roles;
 	}
 
 	@Override
